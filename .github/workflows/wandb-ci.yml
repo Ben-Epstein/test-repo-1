@@ -20,14 +20,14 @@ jobs:
     - uses: actions/checkout@v3 
 
 
-    - name: Set up Python     
-      uses: actions/setup-python@v4
-      with: 
-        python-version: '3.7.13'
-        cache: 'pip'
+    # - name: Set up Python     
+    #   uses: actions/setup-python@v4
+    #   with: 
+    #     python-version: '3.7.13'
+    #     cache: 'pip'
     
-    - name: Install Dependencies
-      run: pip install wandb
+    # - name: Install Dependencies
+    #   run: pip install wandb
       # run: pip install -r ./.github/workflows/requirements.txt
 
 
